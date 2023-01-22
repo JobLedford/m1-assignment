@@ -1,0 +1,18 @@
+.images {
+    float: left;
+}
+.helpers {
+    float: right;
+}
+.helpers2 {
+    float: center;
+}
+.p1 {
+    color:rgb(17, 17, 135);
+    font-size: 20px;
+}
+.title {
+    text-align: center;
+    background-color: blue;
+    color: azure;
+}
