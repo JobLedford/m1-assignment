@@ -1,21 +1,45 @@
-.images {
-    float: left;
-}
-.helpers {
-    float: right;
-}
-.helpers2 {
-    float: center;
-}
 .p1 {
     color: blue;
     font-size: 20px;
 }
 .title {
     text-align: center;
-    background-color: blue;
+    background-color: darkblue;
     color: azure;
+    font-family: cursive;
 }
 .p2 {
     color: blue;
+    font-size: 20px;
+}
+#nav {
+    background-color: rgb(0, 110, 255);
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+    outline: 2px solid black;
+}
+#nav li {
+    display: inline;
+    font-size: 20px;
+    padding: 50px;
+    color: white;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  }
+  .parent {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+  .p {
+    color: blue;
+    font-size: 20px;
+  } 
+.dog1 img {
+    width: 100%;
+    height: auto;
+}
+.form fieldset {
+    background-color: lightblue;
 }
