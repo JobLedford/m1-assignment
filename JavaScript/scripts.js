@@ -12,7 +12,7 @@ var closeDesc = "</div>";
 var photos;
 
 for(var i=0; i<4; i++) {
-  fileNames.push("doge" + (i+1)); //Create image file name and store in array
+  fileNames.push("picture1" + (i+1)); //Create image file name and store in array
   photos.push("<img src='images/" + fileNames[i] + ".jpg'>"); //Assemble file name into image element
   image = openDiv + openList + photos[i] + closeList + opencaption + fileNames[i] + closecaption + openDesc + "<p>This is " + fileNames[i] + "</p>" + closeDesc + closeDiv; //Assemble image element from array with list elements and store in a variable
   imageList.push(image); //Store(push) the assembled list codes into an array
