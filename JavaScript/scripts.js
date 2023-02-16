@@ -12,7 +12,7 @@ var snakeImage;
 var catImage;
 var openDiv = "<div class='column'>";
 var closeDiv = "</div>";
-var openList = "<li class='photo'>"; //Declare a variable to contain open list tag
+var openList = "<li id='photo'>"; //Declare a variable to contain open list tag
 var closeList = "</li>"; //Declare a variable to contain close list tag
 var opencaption = "<div class='caption'>";
 var closecaption = "</div>";
@@ -33,7 +33,7 @@ for (var i = 0; i < 4; i++) {
     closecaption +
     openDesc +
     "<p>This is " +
-    fileNames[i] +
+    fileNames[i] + 
     "</p>" +
     closeDesc +
     closeDiv; //Assemble image element from array with list elements and store in a variable
@@ -42,7 +42,7 @@ for (var i = 0; i < 4; i++) {
 document.getElementById("dogList").innerHTML = dogList.join("dogList");
 
 //Codes for the snakes on the animals page
-for (var e = 0; e < 2; e++) {
+/*for (var e = 0; e < 2; e++) {
   fileNames2.push("snek" + (e + 1));
   photos2.push("<img src='images/" + fileNames2[e] + ".jpg'>");
   snakeImage =
@@ -83,4 +83,4 @@ for (var a = 0; a < 3; a++) {
     closeDiv; //Assemble image element from array with list elements and store in a variable
   catList.push(catImage); //Store(push) the assembled list codes into an array
 }
-document.getElementById("catList").innerHTML = catList.join("catList");
+document.getElementById("catList").innerHTML = catList.join("catList"); */ 
