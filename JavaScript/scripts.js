@@ -16,8 +16,9 @@ var openList = "<li id='photo'>"; //Declare a variable to contain open list tag
 var closeList = "</li>"; //Declare a variable to contain close list tag
 var opencaption = "<div class='caption'>";
 var closecaption = "</div>";
-var openDesc = "<div class='description'>";
+var openDesc = "<div class='description' onclick=''displayInfoBox()'>";
 var closeDesc = "</div>";
+var buttons = []; //To store the list of description button
 
 //Code for the dogs page
 for (var i = 0; i < 4; i++) {
@@ -32,7 +33,7 @@ for (var i = 0; i < 4; i++) {
     fileNames[i] +
     closecaption +
     openDesc +
-    "<p>This is " +
+    "<p id='myBtn' onclick='displayInfoBox()'>This is " +
     fileNames[i] + 
     "</p>" +
     closeDesc +
