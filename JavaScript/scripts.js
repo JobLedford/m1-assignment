@@ -39,7 +39,7 @@ for (var i = 0; i < 4; i++) {
     closeDiv; //Assemble image element from array with list elements and store in a variable
   dogList.push(dogImage); //Store(push) the assembled list codes into an array
 }
-document.getElementById("dogList").innerHTML = dogList.join("dogList");
+document.getElementById("dogList").innerHTML = dogList.join(" ");
 
 //Codes for the snakes on the animals page
 /*for (var e = 0; e < 2; e++) {
