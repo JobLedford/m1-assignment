@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  </head>
+  <body>
+    <header><h1 class="title">Contacting the Adoption Center</h1></header>
+    <nav id="nav">
+      <ul>
+        <li><a class="home" href="index.html">Home</a></li>
+        <li><a class="dogs" href="dogs.html">Dogs</a></li>
+        <li><a class="animals" href="animals.html">Other Animals</a></li>
+        <li class="active">
+          <a class="contact" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Contact Us!</h1>
+    <p class="p2">
+      If you have any questions about any of these dogs please reach out to us
+      for an application and we can get started! If youd like to learn more
+      leave us your contact information on our Home page.
+    </p>
+    <div class="form">
+      <form>
+        <fieldset>
+          <legend>Contact Methods</legend>
+          <p>Email us at info@JobAdoption.com</p>
+          <p>Call us at 954-333-4444</p>
+        </fieldset>
+      </form>
+    </div>
+    
+    <form id="dropDownList">
+      <br><label>Which dog are you interested in?</label>
+      <select id="choosePup">
+        <option>Choose One</option>
+        <option id="bob">Bob</option>
+        <option id="coop">Coop</option>
+        <option id="doug">Doug</option>
+        <option id="billy">Billy</option>
+      </select>
+      <div>
+        <p id="pBob">Bob is aggresive towards some animals. If you have any other animals tell us here: </p>
+        <p id="pcoop">Coop is a senior, if you cannot provide senior diet tell us here:</p>
+        <p id="pDoug">Doug is very, very social. Let us know if you have animals he can befriend here:</p>
+        <p id="pBilly">Billy has a lot of friends that come over and hangout, tell us if they can come here:</p>
+        <textarea id="tellushere"></textarea><br>
+        <input type="submit" value="Submit" />
+      </div>
+      
+    </form>
+
+    <div>
+        <h1>We'll Contact You!</h1>
+        <p class="p2">If you would like us to reach out to you then provide us with all of the information needed and we will get back to you as soon as possible.</p>
+    </div>
+    <div class="form2">
+      <form action="method">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label>Email:</label>
+          <input type="email" name="email" />
+          <label>Address</label>
+          <input type="text" name="address" /><br />
+          <label>Phone Number:</label>
+          <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+          <label>Age:</label>
+          <input type="date" name="birthday"/><br />
+          <label>Which animal are you inquiring about?</label>
+          <textarea rows="6" class="textbox"></textarea><br>
+          <input type="submit" value="Submit" />
+          <input type="reset">
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <a href="#top">Return to top of the screen</a>
+      &copy; Copyright 2023
+    </footer>
+    <script src="JavaScript/dropdown.js"></script>
+  </body>
+</html>
